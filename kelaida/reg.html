@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/login_kelaida.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		
+	</head>
+	<body>
+	<div class="new_header">
+        <a href="#" class="fl"><img src="./images/logo-kelaida.png"></a>
+        <span class="fl">欢迎注册</span>
+   </div>
+    <div class="new_content" style="padding-top: 6%;">
+    	<div class="new_center" style="height:420px;">
+    		<div class="new_center_title">
+        		<a href="#" class="fr">登录</a><strong>注册</strong>
+    		</div>
+    		<form action="http://k.shangdan.cn/simple/reg_act" method="post" novalidate="true">
+            <input type="hidden" name="callback" value="/">
+            <table class="form_table f_l">
+                <colgroup><col width="260px">
+                <col>
+                </colgroup><tbody><tr>
+                    <td style="padding-left: 0px">
+                        <input class="gray" type="text" placeholder="填写正确的手机号码" id="mobile" name="mobile" pattern="mobi" alt="填写正确的手机号码"></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 0px"><input type="text" class="gray_s" placeholder="手机验证码" name="mobile_code" value="" pattern="^\d{4,6}$" alt="请填写手机验证码">
+                        <a class="link" href="javascript:sendMessage();">发送验证码</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 0px">
+                        <input class="gray" type="password" placeholder="请输入密码" name="password" pattern="^\S{6,32}$" bind="repassword" alt="填写6-32个字符"></td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 0px">
+                        <input class="gray" type="password" placeholder="请确认密码" name="repassword" pattern="^\S{6,32}$" bind="password" alt="重复上面所填写的密码"></td>
+                </tr>
+                                <tr>
+                    <td style="padding-left: 0px">
+                        <input type="text" class="gray_s" placeholder="验证码" name="captcha" pattern="^\w{5,10}$" alt="填写下面图片所示的字符">
+                        <img src="./images/getCaptcha" id="captchaImg">
+                        <a class="link" href="javascript:changeCaptcha(&#39;/simple/getCaptcha&#39;);">换一张</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding-left: 0px">
+                        <div class="reg_btn_wrap">
+                            <input type="submit" class="reg_btn" value="立即注册">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        	</form>
+    
+		</div>
+		
+
+		<div class="new_footer" style="margin-top: 7%;">
+    			<div class="footer" style="text-align:center">
+    				<p class="links">
+    					<a href="http://kelaida.com:88/simple/login?callback=">关于我们</a>&nbsp;
+    					|&nbsp;&nbsp;<a href="http://kelaida.com:88/simple/login?callback=">常见问题</a>&nbsp;&nbsp;
+    					|&nbsp;&nbsp;<a href="http://kelaida.com:88/simple/login?callback=">安全交易</a>&nbsp;&nbsp;
+    					|&nbsp;&nbsp;<a href="http://kelaida.com:88/simple/login?callback=">购买流程</a>&nbsp;&nbsp;
+    					|&nbsp;&nbsp;<a href="http://kelaida.com:88/simple/login?callback=">如何付款</a>&nbsp;&nbsp;
+    					|&nbsp;&nbsp;<a href="http://kelaida.com:88/simple/login?callback=">联系我们</a>&nbsp;&nbsp;
+    					|&nbsp;&nbsp;<a href="http://kelaida.com:88/simple/login?callback=">合作提案</a></p>
+    				<p class="copyright">Powered by <a href="http://www.aircheng.com/" style="color:#F76F10;font-weight: bold;">iWebShop</a></p>
+    				Copyright © 2005-2014 <a class="copyys" target="_blank" href="http://www.miibeian.gov.cn/">鲁ICP备01000010号</a>
+    			</div>
+		</div>
+
+    </div>
+    
+	</body>
+</html>

@@ -1,0 +1,162 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+html {min-height:100%; }
+.clear{
+	clear: both;
+}
+.new_header{
+	height: 134px;
+	width: 100%;
+	background-color: #FFFFFF;
+	background: url(../images/bg02.png);
+	
+}
+.new_content{
+	background: url(../images/bg01.jpg);
+	width:100%;
+	background-size:100% 100%;
+	padding-top:8% ;
+	padding-bottom:1% ;
+}
+.new_header a{
+	display: block;
+	margin-left: 18.5%;
+	margin-top: 28px;
+}
+.new_header span{
+	margin-top: 54px;
+	display: block;
+	color: #666666;
+	font-size: 24px;
+	margin-left: 16px;
+	font-family: "微软雅黑";
+}
+.fl{
+	float: left;
+}
+.new_center{
+	width: 318px;
+	height:300px;
+	background-color: #FFFFFF;
+	border:#ddd solid 1px;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-left:67%;
+	/*filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	opacity:0.5;*/
+}
+.new_center_title{
+	height:45px;
+	line-height:45px;
+	font-size:14px;
+}
+.new_center_title a{
+	color:#F76F10;
+	text-decoration:underline;
+}
+.fr{
+	float: right;
+}
+
+
+.new_center .reg_list{min-height:68px;}
+.new_center .reg_list p{line-height:30px;position:relative;}
+.new_center .reg_list input{
+	width:280px;height:34px;line-height:34px;border:1px solid #ddd;color:#999;padding-left:35px;font-family:"Microsoft YaHei";
+}
+.new_center .reg_list input:focus{
+	border-color:#A9A9A9;
+}
+.new_center .verifcode input{width:189px;}
+.new_center .verifcode a{width:90px;border:1px solid #ddd;border-left:0;height:34px;display:inline-block;}
+.new_center .reg_list .user_icon{background:url(../images/Phone.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;background-position:0 0;top:7px;left:10px}
+.new_center .reg_list .email_icon{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;background-position:-100px 0;top:6px;left:5px}
+.new_center .reg_list .tel_icon{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;background-position:-75px 0;top:6px;left:5px}
+.new_center .reg_list .pwd_icon{background:url(../images/icon.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;top:9px;left:10px}
+.new_center .reg_list .pwd2_icon{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;background-position:-50px 0;top:5px;left:5px}
+.new_center .reg_list .code_icon{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;background-position:-50px 0;top:5px;left:4px}
+.new_center .reg_list .reload_icon{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;background-position:0 -25px;top:5px;right:-30px}
+.new_center .reg_list .msg_err{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;top:5px;right:-30px;background-position:-25px -25px;}
+.new_center .reg_list .msg_ok{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;position:absolute;top:5px;right:-30px;background-position:-50px -25px;}
+.new_center .reg_list .msg_error{color:#f69;line-height:32px;}
+.new_center .reg_list .msg_error a{color:#999999;}
+.new_center .confpass,.new_center .verifcode{display:none;}
+.new_center .pw_safe{margin-top:8px;height:22px;display:none;}
+.new_center .pw_safe .txt{float:left;width:58px;color:#999;line-height:14px;}
+.new_center .pw_safe .pw_strength{float:left;width:129px;background-color:#ccc;height:14px;}
+.new_center .pw_safe .pw_strength span{color:#fff;display:inline;float:left;height:14px;line-height:14px;text-align:center;width:42px;border-right:1px solid #FFF;}
+.new_center .pw_safe .pw_strength_color{background:#f69;}
+.new_center .reg_btn_wrap .reg_btn{color:#fff;display:block;font-size:16px;text-align:center;border:0;width:320px;height:46px;background:#F76F10;line-height:46px;cursor:pointer;font-family:"Microsoft YaHei";}
+.new_center .agree_reg{padding-top:12px;padding-bottom:20px;color:#999;border-bottom:1px dotted #ccc;}
+.new_center .agree_reg input{margin:3px 3px 3px 4px;}
+.new_center .agree_reg a{color:#F76F10;text-decoration:underline;}
+.new_center .agree_error{color:#F76F10;line-height:25px;display:none;}
+.new_center .fast_login h3{padding-top:20px;padding-bottom:15px;font-size:14px;font-weight:normal;}
+.new_center .fast_login .fast_way{padding-bottom:20px}
+.new_center .fast_login .fast_way:after{clear:both;content:".";display:block;visibility:hidden;height:0}
+.new_center .fast_login .fast_way a{float:left;width:100px;height:35px;background:url(../images/login_fast_new.png) no-repeat}
+.new_center .fast_login .fast_way a.qq_way{background-position:0 -120px}
+.new_center .fast_login .fast_way a.sina_way{background-position:0 -160px;margin-left:8px;margin-right:8px}
+.new_center .fast_login .fast_way a.weixin_way{background-position:0 -200px; display:none;}
+.new_center .more_way_wrap{padding-bottom:25px;line-height:26px}
+.new_center .more_way_wrap:after{clear:both;content:".";display:block;visibility:hidden;height:0}
+.new_center .more_way_wrap h4{float:left;margin-right:10px;font-size:12px;font-weight:normal;padding-bottom:2px;cursor:pointer}
+.new_center .more_way_wrap .more_way{float:left;display:none;}
+.new_center .more_way_wrap .more_way:after{clear:both;content:".";display:block;visibility:hidden;height:0}
+.new_center .more_way_wrap .more_way a{background:url(../images/login_icon-4.png) no-repeat;display:inline-block;width:25px;height:25px;float:left;margin-right:7px;vertical-align:middle;text-decoration:none;}
+.new_center .more_way_wrap .more_way a.s360{background-position:-100px -25px}
+.new_center .more_way_wrap .more_way a.baidu{background-position:-75px -25px}
+.new_footer{height:30px;line-height:30px;text-align:center;margin-top:10%;margin-bottom:0% ;}
+.new_footer a:hover{
+	color: #333333;
+}
+.new_center2{width:910px;padding:49px 32px;border:1px solid #ddd;background:#fff;}
+.new_center2 .flow_step{padding-top:20px;padding-bottom:40px;border-bottom:1px dotted #bfbfbf;}
+.new_center2 .flow_step ul{width:690px;margin-left:auto;margin-right:auto;}
+.new_center2 .flow_step li{float:left;text-align:center;color:#999;}
+.new_center2 .flow_step span{width:12px;height:12px;float:left;margin-top:-5px;background:url(../images/mls_store131110_1.png) no-repeat -109px -48px;}
+.new_center2 .flow_step .redline{height:2px;background-color:#f69;float:left;width:210px;}
+.new_center2 .flow_step p{margin-top:15px;margin-left:-210px;}
+.new_center2 .flow_step .last{margin-right:-210px;}
+.new_center2 .flow_step .current{color:#f69;}
+.new_center2 .flow_step .current span{background-position:-92px -48px;}
+
+.find_pwd_form{padding-top:40px;padding-left:75px;padding-right:75px;}
+.find_pwd_form .item{margin-bottom:20px;}
+.find_pwd_form label{float:left;line-height:32px;width:90px;text-align:right;}
+.find_pwd_form .item input{height:30px;line-height:30px;font-size:12px;color:#999;-webkit-border-radius:2px;border-radius:2px;padding:0 10px;border:1px solid #ccc;font-family:"Microsoft YaHei";}
+.find_pwd_form .username{width:210px;}
+.find_pwd_form .checkcode{width:60px;float:left;}
+.find_pwd_form .checkImage{width:150px;float:left;}
+.find_pwd_form .checkImage span{float:left;height:36px;line-height:36px;cursor:pointer;margin-left:10px;}
+.find_pwd_form .errorMessage{margin-bottom:10px;margin-top:-15px;margin-left:90px;display:none;}
+.find_pwd_form .item input{height:30px;line-height:30px;font-size:12px;color:#999;-webkit-border-radius:2px;border-radius:2px;padding:0 10px;border:1px solid #ccc;}
+.find_pwd_form .item .submit{background:#f69;cursor:pointer;border:0;color:#fff;margin-left:90px;width:80px;}
+.find_pwd_form .success{text-align:center;line-height:50px;}
+.find_pwd_form .success span{font-size:18px;padding:11px 0 11px 60px;background:url(../images/auditing.png) no-repeat;}
+.find_pwd_form .success a{color:#f69;text-decoration:underline;}
+.big_btn, .big_btnr, .small_btn, .small_btnr{background:url(../images/btn_pic121201.png) no-repeat;display:inline-block;position:relative;}
+.big_btn{background-position:0 0;height:40px;line-height:38px;text-align:center;cursor:pointer;color:#fff;font-size:16px;font-weight:bold;padding-left:6px;}
+.big_btn .big_btnr{background-position:-394px 0;height:40px;right:-6px;top:0;width:6px;position:absolute;}
+.find_pwd_form .big_btn{width:172px;}
+.find_pwd_form .big_btn a{color:#fff;text-decoration:none;}
+.find_pwd_form .msgcode input{float:left;}
+.find_pwd_form .msgcode .codetxt{width:140px;}
+.find_pwd_form .msgcode .submit{margin-left:10px;margin-right:10px;}
+.find_pwd_form .msgcode span{height:32px;line-height:32px;float:left;cursor:pointer;color:#f69;}
+.find_pwd_form .errorMessageSendsms{margin-top:10px;}
+
+.find_pwd_form .resetPwd{margin-bottom:30px;}
+.find_pwd_form .pw_safe{margin-top:8px;height:22px;display:none;padding-left:90px;margin-bottom:-30px;}
+.find_pwd_form .pw_safe .txt{float:left;width:58px;color:#999;line-height:14px;}
+.find_pwd_form .pw_safe .pw_strength{float:left;width:129px;background-color:#ccc;height:14px;}
+.find_pwd_form .pw_safe .pw_strength span{color:#fff;display:inline;float:left;height:14px;line-height:14px;text-align:center;width:42px;border-right:1px solid #FFF;}
+.find_pwd_form .pw_safe .pw_strength_color{background:#f69;}
+.find_pwd_form .resetPwd input{width:210px;}
+.find_pwd_form label{float:left;line-height:32px;width:90px;text-align:right;}
+.find_pwd_form .resetPwd input{width:210px;}
+.find_pwd_form .resetPwd .big_btn{margin-left:90px;}
+.find_pwd_form .resetPwd .big_btn input{outline:0;color:#fff;font-size:16px;font-weight:bold;height:40px;line-height:38px;width:140px;padding:0;margin:0;cursor:pointer;background:0;border:0;}
