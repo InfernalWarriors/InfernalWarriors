@@ -1,0 +1,32 @@
+.userName{
+	background-image:url('../images/login/user.png');
+	padding-left:35px;
+	background-size: 30px 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+.passWord{
+	background-image:url('../images/login/pass.png');
+	padding-left:35px;
+	background-size: 30px 30px;
+	background-position: left center;
+	background-repeat: no-repeat;	
+}
+.loginBackground{
+	
+	height:150px;
+	width:100%;
+	position: absolute;
+	bottom: 0px;
+	background-size: 100% 150px;
+	background-repeat: no-repeat;	
+	background-image:url('../images/login/background.png');
+}
+
+.loginLogo{
+	width:100px;
+	margin: 28px auto;
+}
+.loginLogo img{
+	width:100%;
+}

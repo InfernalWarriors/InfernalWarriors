@@ -1,0 +1,40 @@
+.indexButtom{
+	position: fixed;
+	background-color:#EEEEEE ;
+	height:56px;
+	margin-top: 20px;
+	padding-top: 8px;
+	z-index: 199;
+	left:0px;
+	bottom: 0px;
+	width:100%;
+}
+.indexButtom .buttomItem{
+	float: left;
+	width:20%;
+	text-align:center;
+}
+.indexButtom .buttomItem img{
+	width:25px;
+	height:25px;
+}
+.indexButtom .buttomItem div{
+	text-align:center;
+}
+.indexButtom .Bcenter{
+	position:relative;
+	bottom: 26px ;
+	background-color: #EEEEEE;
+	border-radius: 50%;
+	width:80%;
+	height:60px;
+	left:10%;
+}
+.indexButtom .Bcenter img{
+	width: 40px;
+	height:40px;
+	position: relative;
+	top:6px;
+	left: 0px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.myback{
+	margin-top: -2px;
+	background-image: url('../images/my/myBack.png');
+	height:108px;	
+	background-size: 100% 108px;
+	font-size: 16px;
+	color:#FFFFFF;
+}
+.myUl{
+	padding-left: 0px;
+	color:#999999;
+	font-size:18px;
+}
+
+
+.myUl li{
+	height:60px;
+	list-style-type: none;
+	line-height: 60px;
+	
+}
+.myUl li img{
+	width:32px;
+}
+.myUl .glyphicon{
+	float: right;
+	margin-top: 18px;
+	color:#DDDDDD;
+}

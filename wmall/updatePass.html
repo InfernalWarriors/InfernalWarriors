@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta content="width=device-width, minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=1" id="viewport" name="viewport">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/header.css" />
+		<style>
+			a{
+				color:#000000;
+			}
+			
+			.psdInput{
+				width:100%;
+				height:40px;
+				border: 0px;
+				border-bottom:solid 2px #EEE ;
+				font-size:18px;
+			}
+			
+			
+			.psdInput:focus{
+				outline: 0px;
+			}
+			.psdDiv{
+				padding-top:12px;
+			}
+		</style>
+	</head>
+	<body style="background-color:#EEEEEE;">
+		
+		<div class="container-fluid" >
+			<div class="row header">
+				<div class="col-xs-4">
+					<img src="./images/go_back.png" class="goBack">
+				</div>
+				<div class="col-xs-4">
+					<div class="headerTitle text-center">修改密码</div>
+				</div>
+				<div class="col-xs-4 text-right">
+					<a href="#/Search/search.html">
+						<span class="glyphicon glyphicon-option glyphicon-option-horizontal"></span>
+					</a>
+					
+				</div>
+			</div>
+			
+			<div class="row" style="background-color: #FFFFFF;">
+				<div class="col-xs-12">
+					
+					<div class="psdDiv">
+						<input type="password" placeholder="原密码" class="psdInput" name="" />			
+					</div>
+				
+					<div  class="psdDiv">
+						<input type="password" placeholder="新密码" class="psdInput" name="" />			
+					</div>
+				
+					<div class="psdDiv">
+						<input type="password" style="border-bottom:0;"  placeholder="确认密码"  class="psdInput" name="" />			
+					</div>
+
+				</div>
+
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12" style="margin-top: 60px;">
+					<button class="btn btn-lg btn-block" style="background-color: #FE641A;color:#FFFFFF;" type="submit">完成</button>
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

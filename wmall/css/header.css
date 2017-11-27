@@ -1,0 +1,32 @@
+.header{
+	background-color: #EEEEEE;
+}
+.header .goBack{
+	display: block;
+	width:30px;
+	margin: 12px 0px 5px -5px;
+}
+.header .headerTitle{
+	font-size:14px;
+	font-weight: bold;
+	margin-top: 14px;
+}
+.header .glyphicon-option{
+	font-size:20px;line-height: 46px;
+}
+.shTitle hr{
+	width:50%;
+}
+.leftHr{
+	float: right;
+}
+.rightHr{
+	float: left;
+}
+.Ctitle{
+	text-align: center;
+	line-height:40px;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #999999;
+}

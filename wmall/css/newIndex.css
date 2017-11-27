@@ -1,0 +1,120 @@
+.banner .bannerImg{
+	display: block;
+}
+.banner .bannerImg{
+	width:100%;
+}
+.banderInputGroup{
+	width:90%;
+	position: absolute;
+	left: 10%;
+	top: 56px;
+	z-index:9;
+	filter:alpha(opacity=80);   
+    -moz-opacity:0.8;   
+    -khtml-opacity: 0.8;   
+    opacity: 0.8;   
+}
+			
+
+.input-group-addon {
+    padding: 3px 9px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #eee;
+}
+.itemImg{
+	margin-bottom: 5px;
+}
+
+.itemImg img{
+	width:50px;
+	height:50px;
+}
+.itemTitle{
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.brandImg img{
+	width:100%;
+}
+.dianhuaIcon{
+	font-size:18px;
+	color: #FFFFFF;
+}
+.fontKeFu{
+	color: #FFFFFF;
+	font-size: 12px;
+	margin-top: -6px;
+}
+.fenge{
+	margin-top: 28px;
+	margin-bottom: 2px;
+}
+.HrTitle{
+	position: relative;
+	margin-top: -20px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+}
+.HrTitle img{
+	width:20px;
+}
+.brandImg img{
+	width:100%;
+	border: 2px solid #C0C0C0;
+	border-radius: 5px;
+}
+.brandImg img:hover{
+	border: 2px solid #FE641A;
+}
+.brandCol{
+	padding-left: 5px;
+	padding-right:5px;
+}
+
+
+.goodsItem{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+.goodsItem img{
+	margin-top: 20px;
+	width:100%;
+}
+.goodsItem .goodsTitle{
+	font-size: 17px;
+}
+.goodsItem .factory{
+	color: #A0A0A0;
+}
+.goodsItem .Price{
+	font-size: 20px;
+	color: #FE641A;
+}
+				
+.goodsItem .shenglv{
+	display:block;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.jhdBtn{
+	color: #FFFFFF;
+	background-color:#FE641A ;
+	padding: 5px 5px;
+	/*border-radius: 30%;*/
+}
+.goods_num{
+	text-align: center;
+}
+.fontSize12{
+	font-size: 12px;
+}
